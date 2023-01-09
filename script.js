@@ -23,9 +23,9 @@ class ProgressClock {
 			case 5:
 				return "Пятница";
 			case 6:
-				return "Saturday";
-			default:
 				return "Суббота";
+			default:
+				return "Воскресенье";
 		}
 	}
 	getMonthInfo(mo,yr) {
